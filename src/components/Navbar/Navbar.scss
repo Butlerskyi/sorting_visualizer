@@ -1,0 +1,55 @@
+.navbar {
+  height: 80px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #292940;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  .creates {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .sort__toggle {
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 143px;
+  }
+  .selection {
+    height: 30px;
+    background: skyblue;
+    border: 0px;
+    padding: 0 10px;
+    color: white;
+    cursor: pointer;
+    &:hover {
+      background: rgb(75, 184, 227);
+    }
+  }
+}
+
+.delay {
+  height: 30px;
+  background: skyblue;
+  border: 0px;
+  padding: 0 10px;
+  color: white;
+  &::placeholder {
+    color: white;
+  }
+}
+
+.button {
+  min-width: 70px;
+  height: 30px;
+  border: 0px;
+  background: skyblue;
+  color: white;
+  cursor: pointer;
+  &:hover {
+    background: rgb(75, 184, 227);
+  }
+}

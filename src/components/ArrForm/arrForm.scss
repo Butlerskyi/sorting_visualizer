@@ -1,0 +1,36 @@
+.error__text {
+  margin-top: 10px;
+  color: red;
+}
+
+.arr__length__form__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background: #292940;
+  border-bottom: 1px solid rgb(189, 189, 189);
+  .submit {
+    margin-left: 5px;
+  }
+  .submit2 {
+    margin-top: 10px;
+  }
+  p {
+    color: white;
+  }
+  .arr__length__form__input {
+    width: 160px;
+  }
+}
+
+.arr__values__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .arr__values__input {
+    width: 14px;
+    margin-left: 3px;
+  }
+}
